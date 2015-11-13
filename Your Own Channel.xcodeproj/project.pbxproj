@@ -11,6 +11,8 @@
 		5EBA70971BF3D878003D5DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA70961BF3D878003D5DB6 /* ViewController.swift */; };
 		5EBA709A1BF3D878003D5DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA70981BF3D878003D5DB6 /* Main.storyboard */; };
 		5EBA709C1BF3D878003D5DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA709B1BF3D878003D5DB6 /* Assets.xcassets */; };
+		5EBA70A41BF3DA2D003D5DB6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBA70A31BF3DA2D003D5DB6 /* AVFoundation.framework */; };
+		5EBA70A61BF3DA3A003D5DB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBA70A51BF3DA3A003D5DB6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5EBA70991BF3D878003D5DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EBA709B1BF3D878003D5DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EBA709D1BF3D878003D5DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBA70A31BF3DA2D003D5DB6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5EBA70A51BF3DA3A003D5DB6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EBA70A61BF3DA3A003D5DB6 /* QuartzCore.framework in Frameworks */,
+				5EBA70A41BF3DA2D003D5DB6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +42,8 @@
 		5EBA70881BF3D878003D5DB6 = {
 			isa = PBXGroup;
 			children = (
+				5EBA70A51BF3DA3A003D5DB6 /* QuartzCore.framework */,
+				5EBA70A31BF3DA2D003D5DB6 /* AVFoundation.framework */,
 				5EBA70931BF3D878003D5DB6 /* Your Own Channel */,
 				5EBA70921BF3D878003D5DB6 /* Products */,
 			);
@@ -89,7 +97,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "Richard Sigouin";
+				ORGANIZATIONNAME = kane2931;
 				TargetAttributes = {
 					5EBA70901BF3D878003D5DB6 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -274,6 +282,7 @@
 				5EBA70A21BF3D878003D5DB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
