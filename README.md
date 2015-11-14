@@ -13,6 +13,7 @@ A simple Apple TV Template to create your own live tv channel pretty easilly.
 Template is using by default the NASA TV channel, you just need to change the URL in the ViewController.swift to
 your own.  Pretty easy.
 
+Sample image pack: http://goo.gl/57iH97?gdriveurl
 Example using this template: https://youtu.be/pb__gc8hOL4
 
 
