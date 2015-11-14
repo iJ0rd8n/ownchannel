@@ -19,4 +19,6 @@ Sample image pack: http://goo.gl/57iH97?gdriveurl
 
 Example using this template: https://youtu.be/pb__gc8hOL4
 
+A very good video tutorial about sideloading apps to your Apple TV: https://www.youtube.com/watch?v=xJ_JAwxur-Q
+
 
